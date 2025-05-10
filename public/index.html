@@ -40,11 +40,13 @@
         .error-message {
             color: var(--error-color);
             padding: 0.5rem;
-            margin: 1rem 0;
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
             border-radius: 4px;
             display: none;
             font-weight: 600;
-            text-align: center;
+            text-align: right;
+            width: 100%;
         }
 
         button:focus,
@@ -215,6 +217,10 @@
                 height: 40px;
                 font-size: 1.2rem;
             }
+            .error-message {
+                padding: 0.5rem;
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -252,6 +258,9 @@
                     min="0" 
                     max="100"
                     aria-label="GAT score">
+
+                <div class="error-message" id="scoreError"></div>
+
                 <button onclick="performCalculation()" id="filter-button">
                     <span>تصفية الكليات</span>
                 </button>
@@ -382,7 +391,7 @@
         }
 
         function showError(message) {
-            const errorDiv = document.getElementById('errorMessage');
+            const errorDiv = document.getElementById('scoreError');
             errorDiv.textContent = message;
             errorDiv.style.display = 'block';
             setTimeout(() => errorDiv.style.display = 'none', 5000);
