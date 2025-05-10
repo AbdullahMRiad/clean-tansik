@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول الكليات التفاعلي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Boys Theme */
+            --primary-color: #2A5CAA;
+            --secondary-color: #f8f9fa;  /* Light gray */
+            --accent-color: #f5f7fa;     /* Very light blue/gray */
+            --hover-accent: #e8edf5;     /* Slightly darker accent */
+            --text-color: #212529;
+            --hover-color: #1E3A8A;
+            --button-text: #ffffff;
+            --table-border: #2A5CAA;
+        }
+
+        [data-gender="girls"] {
+            /* Girls Theme */
+            --primary-color: #B71C1C;
+            --secondary-color: #fff5f5;  /* Light red tint */
+            --accent-color: #fce8e8;     /* Very light red */
+            --hover-accent: #f9d7d7;     /* Slightly darker accent */
+            --hover-color: #7F0000;
+            --table-border: #B71C1C;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            padding: 2rem;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: white;
+            font-size: 2.3rem;
+            margin-bottom: 2rem;
+            font-weight: 700;
+            text-align: center;
+            padding: 1.2rem;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Scroll to Top Button */
+        .scroll-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .scroll-top.show {
+            opacity: 1;
+        }
+
+        input, button {
+            padding: 0.8rem 1.2rem;
+            margin: 0.5rem 0;
+            border-radius: 8px;
+            border: 1px solid #ced4da;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            text-align: right;
+            color: black;
+            font-family: 'Cairo', sans-serif;
+        }
+
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            max-width: 400px;
+            background-color: white;
+            border: 2px solid var(--primary-color);
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(42, 92, 170, 0.2);
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: var(--button-text);
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+            margin-inline-start: 10px;
+            text-align: center;
+            max-width: 443px;
+        }
+
+        .filter-button-label {
+            color: var(--button-text);
+            font-family: Cairo, sans-serif;
+        }
+
+        button:hover {
+            background-color: var(--hover-color);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            color: var(--button-text)
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            border: 2px solid var(--table-border);
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: right;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 500;
+        }
+
+        tr:nth-child(even) {
+            background-color: var(--accent-color);
+        }
+
+        tr:hover {
+            background-color: var(--hover-accent);
+            transform: scale(1.0000001);
+            transition: all 0.2s ease;
+        }
+
+        .filter-section {
+            background-color: var(--accent-color);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--primary-color);
+        }
+
+        .filter-section h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            justify-content: center;
+        }
+
+        .tab-button {
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            font-size: 1.1rem;
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+            font-family: 'Cairo', sans-serif;
+        }
+
+        .tab-button.active {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        #calculatedScore {
+            font-weight: 600;
+            background-color: #0000;
+            color: var(--primary-color);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            margin-inline-start: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 1.6rem;
+                padding: 0.8rem;
+            }
+            button {
+                width: 100%;
+                margin-inline-start: 0;
+                margin-top: 10px;
+            }
+            .filter-controls {
+                flex-direction: column;
+                width: 90%;
+            }
+            #searchInput {
+                width: 90%;
+            }
+            #calculatedScore {
+                width: 100%;
+                text-align: center;
+                margin-inline-start: 0;
+            }
+            .scroll-top {
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body data-gender="boys">
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" onclick="scrollToTop()">↑</button>
+
+    <h1 id="pageTitle">نتائج الكليات لمعادلة شهادة المملكة العربية السعودية (بنين - علمي) ٢٠٢٤</h1>
+    
+    <div class="tabs">
+        <button class="tab-button active" onclick="switchTab('boys')">بنين</button>
+        <button class="tab-button" onclick="switchTab('girls')">بنات</button>
+    </div>
+
+    <div class="filter-section">
+        <h2>تصفية حسب اسم الجامعة أو نتيجة المعادلة:</h2>
+        <input type="text" id="searchInput" placeholder="ابحث باسم الكلية أو نتيجة المعادلة" onkeyup="searchTable()">
+    </div>
+
+    <div class="filter-section">
+        <h2>تصفية حسب نتيجة القدرات:</h2>
+        <div class="filter-controls">
+            <input type="number" id="scoreInput" placeholder="أدخل نتيجة القدرات (0-100)" min="0" max="100">
+            <button onclick="performCalculation()"><span class="filter-button-label">تصفية الكليات</span></button>
+            <div id="calculatedScore">
+                <span>النتيجة المحسوبة:</span>
+                <span id="calculatedValue">-</span>
+            </div>
+        </div>
+    </div>
+
+    <table id="collegeTable">
+        <thead>
+            <tr>
+                <th>اسم الكلية</th>
+                <th>النتيجة بعد المعادلة</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Data rows will be inserted here dynamically -->
+        </tbody>
+    </table>
+
+    <script>
+        const alertMessage = "الرجاء إدخال نتيجة صحيحة بين 0 و 100";
+        let boysData = [];
+        let girlsData = [];
+        let currentData = [];
+
+        // Scroll to Top Functionality
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Scroll Button Visibility
+        window.addEventListener('scroll', () => {
+            const scrollButton = document.querySelector('.scroll-top');
+            if (window.scrollY > 300) {
+                scrollButton.classList.add('show');
+            } else {
+                scrollButton.classList.remove('show');
+            }
+        });
+
+        // Data Handling
+        Promise.all([
+            fetch('b_clean_data.json').then(r => r.json()),
+            fetch('g_clean_data.json').then(r => r.json())
+        ]).then(([boys, girls]) => {
+            boysData = boys;
+            girlsData = girls;
+            currentData = boysData;
+            renderTable(currentData);
+        }).catch(error => console.error('Error loading data:', error));
+
+        function renderTable(data) {
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML = '';
+            data.forEach(college => {
+                const row = document.createElement('tr');
+                row.innerHTML = `<td>${college.college}</td><td>${college.score.toFixed(6)}</td>`;
+                tableBody.appendChild(row);
+            });
+        }
+
+        function switchTab(gender) {
+            document.body.setAttribute('data-gender', gender);
+            document.querySelectorAll('.tab-button').forEach(btn => {
+                btn.classList.remove('active');
+                btn.style.borderColor = `var(--primary-color)`;
+            });
+            event.target.classList.add('active');
+
+            currentData = gender === 'boys' ? boysData : girlsData;
+            document.getElementById('pageTitle').textContent = 
+                `نتائج الكليات لمعادلة شهادة المملكة العربية السعودية (${gender === 'boys' ? 'بنين - علمي' : 'بنات - علمي'}) ٢٠٢٤`;
+
+            document.getElementById('searchInput').value = '';
+            document.getElementById('scoreInput').value = '';
+            document.getElementById('calculatedValue').textContent = '-';
+            renderTable(currentData);
+        }
+
+        function searchTable() {
+            const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+            const filteredData = currentData.filter(college => {
+                return college.college.toLowerCase().includes(searchQuery) ||
+                    college.score.toString().includes(searchQuery);
+            });
+            renderTable(filteredData);
+        }
+
+        function performCalculation() {
+            const scoreInput = document.getElementById('scoreInput').value;
+            const calculatedValue = document.getElementById('calculatedValue');
+
+            if (scoreInput >= 0 && scoreInput <= 100) {
+                const calculatedResult = ((scoreInput / 2) + 50) / 100 * 410;
+                const filteredData = currentData.filter(college => college.score <= calculatedResult);
+                calculatedValue.textContent = calculatedResult.toFixed(6);
+                renderTable(filteredData);
+            } else {
+                alert(alertMessage);
+            }
+        }
+    </script>
+</body>
+</html>

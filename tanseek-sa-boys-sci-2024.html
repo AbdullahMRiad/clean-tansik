@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول الكليات التفاعلي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2A5CAA;
+            --secondary-color: #f8f9fa;
+            --accent-color: #e9ecef;
+            --text-color: #212529;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            padding: 2rem;
+            background-color: #f4f6f9;
+            color: var(--text-color);
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.3rem;
+            margin-bottom: 2rem;
+            font-weight: 700;
+            text-align: center;
+            padding: 1.2rem;
+            background: linear-gradient(135deg, var(--primary-color) 0%, #1E3A8A 100%);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        input, button {
+            padding: 0.8rem 1.2rem;
+            margin: 0.5rem 0;
+            border-radius: 8px;
+            border: 1px solid #ced4da;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            text-align: right;
+        }
+
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            max-width: 400px;
+            background-color: white;
+            border: 2px solid #e2e8f0;
+        }
+
+        input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(42, 92, 170, 0.2);
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 500;
+            margin-inline-start: 10px; /* RTL-friendly margin */
+        }
+
+        button:hover {
+            background-color: #1E3A8A;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: right; /* Explicit RTL alignment */
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 500;
+        }
+
+        tr:nth-child(even) {
+            background-color: var(--secondary-color);
+        }
+
+        tr:hover {
+            background-color: var(--accent-color);
+            transform: scale(1.01);
+            transition: all 0.2s ease;
+        }
+
+        .filter-section {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .filter-section h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            margin-bottom: 1rem;
+        }
+
+        /* RTL-specific adjustments */
+        input::placeholder {
+            text-align: right;
+            direction: rtl;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+                padding: 0.8rem;
+            }
+
+            button {
+                width: 100%;
+                margin-inline-start: 0;
+                margin-top: 10px;
+            }
+        }
+
+        .filter-controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        #calculatedScore {
+            font-weight: 600;
+            color: var(--primary-color);
+            background-color: var(--secondary-color);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            margin-inline-start: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .filter-controls {
+                flex-direction: column;
+                width: 100%;
+            }
+            
+            #calculatedScore {
+                width: 100%;
+                text-align: center;
+                margin-inline-start: 0;
+            }
+        }
+
+        .filter-button-label, input {
+            color: white;
+            font-family: 'Cairo', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>نتائج الكليات لمعادلة شهادة المملكة العربية السعودية (بنين - علمي) ٢٠٢٤</h1>
+
+    <div class="filter-section">
+        <h2>تصفية حسب اسم الجامعة أو نتيجة المعادلة:</h2>
+        <input type="text" id="searchInput" placeholder="ابحث باسم الكلية أو نتيجة المعادلة" onkeyup="searchTable()">
+    </div>
+
+    <div class="filter-section">
+        <h2>تصفية حسب نتيجة القدرات:</h2>
+        <div class="filter-controls">
+            <input type="number" id="scoreInput" placeholder="أدخل نتيجة القدرات (0-100)" min="0" max="100">
+            <button onclick="performCalculation()"><span class="filter-button-label">تصفية الكليات</span></button>
+            <div id="calculatedScore">
+                <span>النتيجة المحسوبة:</span>
+                <span id="calculatedValue">-</span>
+            </div>
+        </div>
+    </div>
+
+    <table id="collegeTable">
+        <thead>
+            <tr>
+                <th>اسم الكلية</th>
+                <th>النتيجة بعد المعادلة</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Data rows will be inserted here dynamically -->
+        </tbody>
+    </table>
+
+    <script>
+        // Update any English text in JavaScript if needed
+        const alertMessage = "الرجاء إدخال نتيجة صحيحة بين 0 و 100";
+
+        let collegesData = [];
+
+        // Fetch the college data from the external JSON file
+        fetch('clean_data.json')
+            .then(response => response.json())
+            .then(data => {
+                collegesData = data;
+                renderTable(collegesData); // Initially render the full table
+            })
+            .catch(error => {
+                console.error('Error loading college data:', error);
+            });
+
+        // Render the table with the given data
+        function renderTable(data) {
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML = ''; // Clear existing rows
+            data.forEach(college => {
+                const row = document.createElement('tr');
+                row.innerHTML = `<td>${college.college}</td><td>${college.score.toFixed(6)}</td>`;
+                tableBody.appendChild(row);
+            });
+        }
+
+        // Search function: Filters by college name or score
+        function searchTable() {
+            const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+            const filteredData = collegesData.filter(college => {
+                return college.college.toLowerCase().includes(searchQuery) ||
+                    college.score.toString().includes(searchQuery);
+            });
+            renderTable(filteredData);
+        }
+
+        // Perform calculation and filter based on the user's score input
+        function performCalculation() {
+            const scoreInput = document.getElementById('scoreInput').value;
+            const calculatedValue = document.getElementById('calculatedValue');
+
+            if (scoreInput >= 0 && scoreInput <= 100) {
+                // Perform the calculation
+                const calculatedResult = ((scoreInput / 2) + 50) / 100 * 410;
+                // Filter colleges where score >= calculatedResult
+                const filteredData = collegesData.filter(college => college.score <= calculatedResult);
+                calculatedValue.textContent = calculatedResult.toFixed(6); 
+                renderTable(filteredData);
+            } else {
+                alert(alertMessage);
+            }
+        }
+    </script>
+</body>
+</html>

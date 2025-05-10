@@ -1,0 +1,3842 @@
+[
+    [
+      {
+        "content": "طب القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 0,
+        "endPos": 10
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 11,
+        "endPos": 21
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 23,
+        "endPos": 39
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 40,
+        "endPos": 50
+      }
+    ],
+    [
+      {
+        "content": "طب الإسكندرية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 52,
+        "endPos": 65
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 66,
+        "endPos": 76
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان الإسكندرية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 78,
+        "endPos": 97
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 98,
+        "endPos": 108
+      }
+    ],
+    [
+      {
+        "content": "طب عين شمس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 110,
+        "endPos": 120
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 121,
+        "endPos": 131
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان عين شمس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 133,
+        "endPos": 149
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 150,
+        "endPos": 160
+      }
+    ],
+    [
+      {
+        "content": "طب سوهاج",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 162,
+        "endPos": 170
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 171,
+        "endPos": 181
+      }
+    ],
+    [
+      {
+        "content": "طب الفيوم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 183,
+        "endPos": 192
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 193,
+        "endPos": 203
+      }
+    ],
+    [
+      {
+        "content": "طب أسيوط",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 205,
+        "endPos": 213
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 214,
+        "endPos": 224
+      }
+    ],
+    [
+      {
+        "content": "طب طنطا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 226,
+        "endPos": 233
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 234,
+        "endPos": 244
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان طنطا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 246,
+        "endPos": 259
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 260,
+        "endPos": 270
+      }
+    ],
+    [
+      {
+        "content": "طب المنصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 272,
+        "endPos": 283
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 284,
+        "endPos": 294
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان المنصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 296,
+        "endPos": 313
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 314,
+        "endPos": 324
+      }
+    ],
+    [
+      {
+        "content": "طب الزقازيق",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 326,
+        "endPos": 337
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 338,
+        "endPos": 348
+      }
+    ],
+    [
+      {
+        "content": "طب المنوفية بشبين الكوم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 350,
+        "endPos": 373
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 374,
+        "endPos": 384
+      }
+    ],
+    [
+      {
+        "content": "طب بنها",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 386,
+        "endPos": 393
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 394,
+        "endPos": 404
+      }
+    ],
+    [
+      {
+        "content": "طب بني سويف",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 406,
+        "endPos": 417
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 418,
+        "endPos": 428
+      }
+    ],
+    [
+      {
+        "content": "طب المنيا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 430,
+        "endPos": 439
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 440,
+        "endPos": 450
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان السويس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 452,
+        "endPos": 467
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 468,
+        "endPos": 478
+      }
+    ],
+    [
+      {
+        "content": "طب فاقوس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 480,
+        "endPos": 488
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 489,
+        "endPos": 499
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان المنوفية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 501,
+        "endPos": 518
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 519,
+        "endPos": 529
+      }
+    ],
+    [
+      {
+        "content": "طب دمياط",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 531,
+        "endPos": 539
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 540,
+        "endPos": 550
+      }
+    ],
+    [
+      {
+        "content": "طب الاقصر",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 552,
+        "endPos": 561
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 562,
+        "endPos": 572
+      }
+    ],
+    [
+      {
+        "content": "طب كفر الشيخ",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 574,
+        "endPos": 586
+      },
+      {
+        "content": "410.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 587,
+        "endPos": 597
+      }
+    ],
+    [
+      {
+        "content": "طب حلوان",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 599,
+        "endPos": 607
+      },
+      {
+        "content": "409.975882",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 608,
+        "endPos": 618
+      }
+    ],
+    [
+      {
+        "content": "طب قناة السويس بالإسماعيلية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 620,
+        "endPos": 647
+      },
+      {
+        "content": "409.975882",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 648,
+        "endPos": 658
+      }
+    ],
+    [
+      {
+        "content": "طب بورسعيد",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 660,
+        "endPos": 670
+      },
+      {
+        "content": "409.975882",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 671,
+        "endPos": 681
+      }
+    ],
+    [
+      {
+        "content": "طب السويس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 683,
+        "endPos": 692
+      },
+      {
+        "content": "409.951765",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 693,
+        "endPos": 703
+      }
+    ],
+    [
+      {
+        "content": "طب الوادي الجديد",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 705,
+        "endPos": 721
+      },
+      {
+        "content": "409.927647",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 722,
+        "endPos": 732
+      }
+    ],
+    [
+      {
+        "content": "طب جنوب الوادي",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 734,
+        "endPos": 748
+      },
+      {
+        "content": "409.927647",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 749,
+        "endPos": 759
+      }
+    ],
+    [
+      {
+        "content": "طب العريش",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 761,
+        "endPos": 770
+      },
+      {
+        "content": "409.886111",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 771,
+        "endPos": 781
+      }
+    ],
+    [
+      {
+        "content": "طب أسوان",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 783,
+        "endPos": 791
+      },
+      {
+        "content": "409.884771",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 792,
+        "endPos": 802
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان الزقازيق",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 804,
+        "endPos": 821
+      },
+      {
+        "content": "409.879412",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 822,
+        "endPos": 832
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان قناة السويس بالإسماعيلية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 834,
+        "endPos": 867
+      },
+      {
+        "content": "409.871875",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 868,
+        "endPos": 878
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان الفيوم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 880,
+        "endPos": 895
+      },
+      {
+        "content": "409.863333",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 896,
+        "endPos": 906
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان كفر الشيخ",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 908,
+        "endPos": 926
+      },
+      {
+        "content": "409.833856",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 927,
+        "endPos": 937
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان بني سويف",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 939,
+        "endPos": 956
+      },
+      {
+        "content": "409.807059",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 957,
+        "endPos": 967
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان أسيوط",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 969,
+        "endPos": 983
+      },
+      {
+        "content": "409.790980",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 984,
+        "endPos": 994
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان المنيا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 996,
+        "endPos": 1011
+      },
+      {
+        "content": "409.766863",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1012,
+        "endPos": 1022
+      }
+    ],
+    [
+      {
+        "content": "طب أسنان جنوب الوادي",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1024,
+        "endPos": 1044
+      },
+      {
+        "content": "409.758824",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1045,
+        "endPos": 1055
+      }
+    ],
+    [
+      {
+        "content": "علاج طبيعي القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1057,
+        "endPos": 1075
+      },
+      {
+        "content": "409.651215",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1076,
+        "endPos": 1086
+      }
+    ],
+    [
+      {
+        "content": "علاج طبيعي كفر الشيخ",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1088,
+        "endPos": 1108
+      },
+      {
+        "content": "409.631871",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1109,
+        "endPos": 1119
+      }
+    ],
+    [
+      {
+        "content": "صيدلة القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1121,
+        "endPos": 1134
+      },
+      {
+        "content": "409.468072",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1135,
+        "endPos": 1145
+      }
+    ],
+    [
+      {
+        "content": "علاج طبيعي بورسعيد",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1147,
+        "endPos": 1165
+      },
+      {
+        "content": "409.452328",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1166,
+        "endPos": 1176
+      }
+    ],
+    [
+      {
+        "content": "علاج طبيعي بنها",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1178,
+        "endPos": 1193
+      },
+      {
+        "content": "409.359375",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1194,
+        "endPos": 1204
+      }
+    ],
+    [
+      {
+        "content": "علاج طبيعي السويس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1206,
+        "endPos": 1223
+      },
+      {
+        "content": "409.281830",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1224,
+        "endPos": 1234
+      }
+    ],
+    [
+      {
+        "content": "علاج طبيعي قناة السويس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1236,
+        "endPos": 1258
+      },
+      {
+        "content": "409.276471",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1259,
+        "endPos": 1269
+      }
+    ],
+    [
+      {
+        "content": "علاج طبيعي بني سويف",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1271,
+        "endPos": 1290
+      },
+      {
+        "content": "408.546242",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1291,
+        "endPos": 1301
+      }
+    ],
+    [
+      {
+        "content": "صيدلة و تصنيع دوائي كفر الشيخ",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1303,
+        "endPos": 1332
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1333,
+        "endPos": 1343
+      }
+    ],
+    [
+      {
+        "content": "كلية الهندسة جامعة دمنهور",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1345,
+        "endPos": 1370
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1371,
+        "endPos": 1381
+      }
+    ],
+    [
+      {
+        "content": "حاسبات و ذكاء إصطناعي القاهرة رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1383,
+        "endPos": 1418
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1419,
+        "endPos": 1429
+      }
+    ],
+    [
+      {
+        "content": "صيدلة المنصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1431,
+        "endPos": 1445
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1446,
+        "endPos": 1456
+      }
+    ],
+    [
+      {
+        "content": "هندسة المنصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1458,
+        "endPos": 1472
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1473,
+        "endPos": 1483
+      }
+    ],
+    [
+      {
+        "content": "صيدلة الزقازيق",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1485,
+        "endPos": 1499
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1500,
+        "endPos": 1510
+      }
+    ],
+    [
+      {
+        "content": "صيدلة المنوفية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1512,
+        "endPos": 1526
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1527,
+        "endPos": 1537
+      }
+    ],
+    [
+      {
+        "content": "صيدلة عين شمس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1539,
+        "endPos": 1552
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1553,
+        "endPos": 1563
+      }
+    ],
+    [
+      {
+        "content": "صيدلة طنطا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1565,
+        "endPos": 1575
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1576,
+        "endPos": 1586
+      }
+    ],
+    [
+      {
+        "content": "صيدلة أسيوط",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1588,
+        "endPos": 1599
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1600,
+        "endPos": 1610
+      }
+    ],
+    [
+      {
+        "content": "صيدلة جنوب الوادي",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1612,
+        "endPos": 1629
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1630,
+        "endPos": 1640
+      }
+    ],
+    [
+      {
+        "content": "صيدلة المنيا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1642,
+        "endPos": 1654
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1655,
+        "endPos": 1665
+      }
+    ],
+    [
+      {
+        "content": "صيدلة حلوان",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1667,
+        "endPos": 1678
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1679,
+        "endPos": 1689
+      }
+    ],
+    [
+      {
+        "content": "هندسة بترول وتعدين السويس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1691,
+        "endPos": 1716
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1717,
+        "endPos": 1727
+      }
+    ],
+    [
+      {
+        "content": "صيدلة بني سويف",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1729,
+        "endPos": 1743
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1744,
+        "endPos": 1754
+      }
+    ],
+    [
+      {
+        "content": "صيدلة قناة السويس بالإسماعيلية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1756,
+        "endPos": 1786
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1787,
+        "endPos": 1797
+      }
+    ],
+    [
+      {
+        "content": "هندسة القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1799,
+        "endPos": 1812
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1813,
+        "endPos": 1823
+      }
+    ],
+    [
+      {
+        "content": "صيدلة الإسكندرية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1825,
+        "endPos": 1841
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1842,
+        "endPos": 1852
+      }
+    ],
+    [
+      {
+        "content": "هندسة الإسكندرية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1854,
+        "endPos": 1870
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1871,
+        "endPos": 1881
+      }
+    ],
+    [
+      {
+        "content": "صيدلة الفيوم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1883,
+        "endPos": 1895
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1896,
+        "endPos": 1906
+      }
+    ],
+    [
+      {
+        "content": "صيدلة دمنهور",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1908,
+        "endPos": 1920
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1921,
+        "endPos": 1931
+      }
+    ],
+    [
+      {
+        "content": "علاج طبيعي جنوب الوادي",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1933,
+        "endPos": 1955
+      },
+      {
+        "content": "407.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1956,
+        "endPos": 1966
+      }
+    ],
+    [
+      {
+        "content": "صيدلة بورسعيد",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1968,
+        "endPos": 1981
+      },
+      {
+        "content": "407.925882",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 1982,
+        "endPos": 1992
+      }
+    ],
+    [
+      {
+        "content": "صيدلة مدينة السادات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 1994,
+        "endPos": 2013
+      },
+      {
+        "content": "407.925882",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2014,
+        "endPos": 2024
+      }
+    ],
+    [
+      {
+        "content": "هندسة الزقازيق",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2026,
+        "endPos": 2040
+      },
+      {
+        "content": "407.880327",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2041,
+        "endPos": 2051
+      }
+    ],
+    [
+      {
+        "content": "صيدلة ج الوادي الجديد",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2053,
+        "endPos": 2074
+      },
+      {
+        "content": "407.877647",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2075,
+        "endPos": 2085
+      }
+    ],
+    [
+      {
+        "content": "صيدلة سوهاج",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2087,
+        "endPos": 2098
+      },
+      {
+        "content": "407.829412",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2099,
+        "endPos": 2109
+      }
+    ],
+    [
+      {
+        "content": "هندسة عين شمس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2111,
+        "endPos": 2124
+      },
+      {
+        "content": "407.805294",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2125,
+        "endPos": 2135
+      }
+    ],
+    [
+      {
+        "content": "هندسة إلكترونية المنوفية بمنوف",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2137,
+        "endPos": 2167
+      },
+      {
+        "content": "407.777827",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2168,
+        "endPos": 2178
+      }
+    ],
+    [
+      {
+        "content": "هندسة بني سويف",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2180,
+        "endPos": 2194
+      },
+      {
+        "content": "407.684706",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2195,
+        "endPos": 2205
+      }
+    ],
+    [
+      {
+        "content": "هندسة كفر الشيخ",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2207,
+        "endPos": 2222
+      },
+      {
+        "content": "407.507843",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2223,
+        "endPos": 2233
+      }
+    ],
+    [
+      {
+        "content": "هندسة بنها بشبرا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2235,
+        "endPos": 2251
+      },
+      {
+        "content": "407.440850",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2252,
+        "endPos": 2262
+      }
+    ],
+    [
+      {
+        "content": "حاسبات و علوم البيانات الإسكندرية رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2264,
+        "endPos": 2303
+      },
+      {
+        "content": "407.225131",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2304,
+        "endPos": 2314
+      }
+    ],
+    [
+      {
+        "content": "هندسة طنطا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2316,
+        "endPos": 2326
+      },
+      {
+        "content": "406.882292",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2327,
+        "endPos": 2337
+      }
+    ],
+    [
+      {
+        "content": "هندسة الطاقة أسوان",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2339,
+        "endPos": 2357
+      },
+      {
+        "content": "406.687843",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2358,
+        "endPos": 2368
+      }
+    ],
+    [
+      {
+        "content": "هندسة بنها",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2370,
+        "endPos": 2380
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2381,
+        "endPos": 2391
+      }
+    ],
+    [
+      {
+        "content": "هندسة دمياط",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2393,
+        "endPos": 2404
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2405,
+        "endPos": 2415
+      }
+    ],
+    [
+      {
+        "content": "هندسة حلوان بالمطرية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2417,
+        "endPos": 2437
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2438,
+        "endPos": 2448
+      }
+    ],
+    [
+      {
+        "content": "هندسة حلوان",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2450,
+        "endPos": 2461
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2462,
+        "endPos": 2472
+      }
+    ],
+    [
+      {
+        "content": "هندسة المنوفية بشبين الكوم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2474,
+        "endPos": 2500
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2501,
+        "endPos": 2511
+      }
+    ],
+    [
+      {
+        "content": "هندسة المنيا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2513,
+        "endPos": 2525
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2526,
+        "endPos": 2536
+      }
+    ],
+    [
+      {
+        "content": "هندسة بور سعيد",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2538,
+        "endPos": 2552
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2553,
+        "endPos": 2563
+      }
+    ],
+    [
+      {
+        "content": "هندسة أسيوط",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2565,
+        "endPos": 2576
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2577,
+        "endPos": 2587
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات عين شمس رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2589,
+        "endPos": 2618
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2619,
+        "endPos": 2629
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات المنصورة رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2631,
+        "endPos": 2661
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2662,
+        "endPos": 2672
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري عين شمس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2674,
+        "endPos": 2690
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2691,
+        "endPos": 2701
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2703,
+        "endPos": 2719
+      },
+      {
+        "content": "405.900000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2720,
+        "endPos": 2730
+      }
+    ],
+    [
+      {
+        "content": "هندسة الفيوم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2732,
+        "endPos": 2744
+      },
+      {
+        "content": "405.854444",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2745,
+        "endPos": 2755
+      }
+    ],
+    [
+      {
+        "content": "حاسبات و ذكاء إصطناعي حلوان رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2757,
+        "endPos": 2790
+      },
+      {
+        "content": "405.827647",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2791,
+        "endPos": 2801
+      }
+    ],
+    [
+      {
+        "content": "هندسة قناة السويس بالإسماعيلية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2803,
+        "endPos": 2833
+      },
+      {
+        "content": "405.803529",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2834,
+        "endPos": 2844
+      }
+    ],
+    [
+      {
+        "content": "هندسة السويس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2846,
+        "endPos": 2858
+      },
+      {
+        "content": "405.729167",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2859,
+        "endPos": 2869
+      }
+    ],
+    [
+      {
+        "content": "هندسة جنوب الوادي",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2871,
+        "endPos": 2888
+      },
+      {
+        "content": "405.682271",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2889,
+        "endPos": 2899
+      }
+    ],
+    [
+      {
+        "content": "هندسة أسوان",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2901,
+        "endPos": 2912
+      },
+      {
+        "content": "405.586471",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2913,
+        "endPos": 2923
+      }
+    ],
+    [
+      {
+        "content": "هندسة سوهاج",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2925,
+        "endPos": 2936
+      },
+      {
+        "content": "404.262010",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2937,
+        "endPos": 2947
+      }
+    ],
+    [
+      {
+        "content": "تخطيط عمراني القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2949,
+        "endPos": 2969
+      },
+      {
+        "content": "403.850000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2970,
+        "endPos": 2980
+      }
+    ],
+    [
+      {
+        "content": "علوم البترول والتعدين مطروح",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2982,
+        "endPos": 3009
+      },
+      {
+        "content": "403.850000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3010,
+        "endPos": 3020
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات الزقازيق رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3022,
+        "endPos": 3052
+      },
+      {
+        "content": "403.850000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3053,
+        "endPos": 3063
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات المنوفية بشبين الكوم رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3065,
+        "endPos": 3107
+      },
+      {
+        "content": "403.850000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3108,
+        "endPos": 3118
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري المنيا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3120,
+        "endPos": 3135
+      },
+      {
+        "content": "403.850000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3136,
+        "endPos": 3146
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات دمياط رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3148,
+        "endPos": 3175
+      },
+      {
+        "content": "403.850000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3176,
+        "endPos": 3186
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات دمنهور بالنوبارية رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3188,
+        "endPos": 3227
+      },
+      {
+        "content": "403.850000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3228,
+        "endPos": 3238
+      }
+    ],
+    [
+      {
+        "content": "الذكاء الاصطناعى كفر الشيخ رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3240,
+        "endPos": 3272
+      },
+      {
+        "content": "403.850000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3273,
+        "endPos": 3283
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات طنطا رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3285,
+        "endPos": 3311
+      },
+      {
+        "content": "403.850000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3312,
+        "endPos": 3322
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري المنوفية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3324,
+        "endPos": 3341
+      },
+      {
+        "content": "403.168676",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3342,
+        "endPos": 3352
+      }
+    ],
+    [
+      {
+        "content": "المعهد التكنولوجي العالي بالسادس من أكتوبر",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3354,
+        "endPos": 3396
+      },
+      {
+        "content": "401.800000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3397,
+        "endPos": 3407
+      }
+    ],
+    [
+      {
+        "content": "ذكاء إصطناعي المنوفية شبين الكوم رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3409,
+        "endPos": 3447
+      },
+      {
+        "content": "401.800000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3448,
+        "endPos": 3458
+      }
+    ],
+    [
+      {
+        "content": "علوم البترول والتعدين مطروح - علوم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3460,
+        "endPos": 3494
+      },
+      {
+        "content": "401.800000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3495,
+        "endPos": 3505
+      }
+    ],
+    [
+      {
+        "content": "حاسبات و ذكاء إصطناعي بنها رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3507,
+        "endPos": 3539
+      },
+      {
+        "content": "401.800000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3540,
+        "endPos": 3550
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات كفر الشيخ رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3552,
+        "endPos": 3583
+      },
+      {
+        "content": "401.800000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3584,
+        "endPos": 3594
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري الإسكندرية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3596,
+        "endPos": 3615
+      },
+      {
+        "content": "401.800000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3616,
+        "endPos": 3626
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات الفيوم رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3628,
+        "endPos": 3656
+      },
+      {
+        "content": "401.488815",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3657,
+        "endPos": 3667
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالى للهندسة والتكنولوجيا الحديثة بالمرج",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3669,
+        "endPos": 3718
+      },
+      {
+        "content": "401.380286",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3719,
+        "endPos": 3729
+      }
+    ],
+    [
+      {
+        "content": "ألسن كفر الشيخ",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3731,
+        "endPos": 3745
+      },
+      {
+        "content": "401.087190",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3746,
+        "endPos": 3756
+      }
+    ],
+    [
+      {
+        "content": "معهد الإسكندرية العالي للتكنولوجيا بسموحة بمصروفات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3758,
+        "endPos": 3808
+      },
+      {
+        "content": "401.079820",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3809,
+        "endPos": 3819
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات المنيا رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3821,
+        "endPos": 3849
+      },
+      {
+        "content": "401.078145",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3850,
+        "endPos": 3860
+      }
+    ],
+    [
+      {
+        "content": "حاسبات وذكاء اصطناعي السادات رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3862,
+        "endPos": 3896
+      },
+      {
+        "content": "399.750000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3897,
+        "endPos": 3907
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات السويس رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3909,
+        "endPos": 3937
+      },
+      {
+        "content": "399.750000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3938,
+        "endPos": 3948
+      }
+    ],
+    [
+      {
+        "content": "معهد عالي هندسة وتكنولوجيا المنيا الجديدة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3950,
+        "endPos": 3991
+      },
+      {
+        "content": "399.750000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3992,
+        "endPos": 4002
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات قناة السويس بالإسماعيلية رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4004,
+        "endPos": 4050
+      },
+      {
+        "content": "399.750000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4051,
+        "endPos": 4061
+      }
+    ],
+    [
+      {
+        "content": "المعهد الكندى العالى للهندسة 6 اكتوبر",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4063,
+        "endPos": 4100
+      },
+      {
+        "content": "399.750000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4101,
+        "endPos": 4111
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات بني سويف رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4113,
+        "endPos": 4143
+      },
+      {
+        "content": "399.750000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4144,
+        "endPos": 4154
+      }
+    ],
+    [
+      {
+        "content": "حاسبات و ذكاء إصطناعي جنوب الوادي فرع الغردقة رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4156,
+        "endPos": 4207
+      },
+      {
+        "content": "399.750000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4208,
+        "endPos": 4218
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات العريش رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4220,
+        "endPos": 4248
+      },
+      {
+        "content": "399.307843",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4249,
+        "endPos": 4259
+      }
+    ],
+    [
+      {
+        "content": "الملاحة وتكنولوجيا الفضاء بني سويف",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4261,
+        "endPos": 4295
+      },
+      {
+        "content": "399.015082",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4296,
+        "endPos": 4306
+      }
+    ],
+    [
+      {
+        "content": "حاسبات وذكاء اصطناعي مطروح رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4308,
+        "endPos": 4340
+      },
+      {
+        "content": "397.700000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4341,
+        "endPos": 4351
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري بنها",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4353,
+        "endPos": 4366
+      },
+      {
+        "content": "397.700000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4367,
+        "endPos": 4377
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات أسيوط رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4379,
+        "endPos": 4406
+      },
+      {
+        "content": "397.181806",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4407,
+        "endPos": 4417
+      }
+    ],
+    [
+      {
+        "content": "إعلام القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4419,
+        "endPos": 4432
+      },
+      {
+        "content": "396.944649",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4433,
+        "endPos": 4443
+      }
+    ],
+    [
+      {
+        "content": "العلوم الصحية التطبيقية المنوفية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4445,
+        "endPos": 4477
+      },
+      {
+        "content": "396.530294",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4478,
+        "endPos": 4488
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات الأقصر رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4490,
+        "endPos": 4518
+      },
+      {
+        "content": "396.269271",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4519,
+        "endPos": 4529
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات سوهاج رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4531,
+        "endPos": 4558
+      },
+      {
+        "content": "395.650000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4559,
+        "endPos": 4569
+      }
+    ],
+    [
+      {
+        "content": "حاسبات ومعلومات قنا رياضة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4571,
+        "endPos": 4596
+      },
+      {
+        "content": "393.927263",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4597,
+        "endPos": 4607
+      }
+    ],
+    [
+      {
+        "content": "معهد عالي هندسه 6 اكتوبر بمصروفات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4609,
+        "endPos": 4642
+      },
+      {
+        "content": "393.600000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4643,
+        "endPos": 4653
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري الزقازيق",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4655,
+        "endPos": 4672
+      },
+      {
+        "content": "393.600000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4673,
+        "endPos": 4683
+      }
+    ],
+    [
+      {
+        "content": "اقتصاد وعلوم سياسية القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4685,
+        "endPos": 4712
+      },
+      {
+        "content": "393.479077",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4713,
+        "endPos": 4723
+      }
+    ],
+    [
+      {
+        "content": "الأكاديمية الدولية لعلوم الإعلام (شعبة هندسة )6اكتوبر",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4725,
+        "endPos": 4778
+      },
+      {
+        "content": "393.254314",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4779,
+        "endPos": 4789
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري المنصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4791,
+        "endPos": 4808
+      },
+      {
+        "content": "391.804575",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4809,
+        "endPos": 4819
+      }
+    ],
+    [
+      {
+        "content": "الدراسات الاقتصادية والعلوم السياسية الإسكندرية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4821,
+        "endPos": 4868
+      },
+      {
+        "content": "391.550000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4869,
+        "endPos": 4879
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري كفر الشيخ",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4881,
+        "endPos": 4899
+      },
+      {
+        "content": "391.550000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4900,
+        "endPos": 4910
+      }
+    ],
+    [
+      {
+        "content": "كلية تكنولوجيا الصناعة و الطاقة بالقاهرة جامعة مصر الدولية التكنولوجية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4912,
+        "endPos": 4982
+      },
+      {
+        "content": "391.550000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4983,
+        "endPos": 4993
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري أسوان",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 4995,
+        "endPos": 5009
+      },
+      {
+        "content": "387.450000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5010,
+        "endPos": 5020
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري أسيوط",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5022,
+        "endPos": 5036
+      },
+      {
+        "content": "387.450000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5037,
+        "endPos": 5047
+      }
+    ],
+    [
+      {
+        "content": "معهد تكنولوجي عالي العاشر من رمضان شعبة (هندسة) بمصروفات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5049,
+        "endPos": 5105
+      },
+      {
+        "content": "387.358889",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5106,
+        "endPos": 5116
+      }
+    ],
+    [
+      {
+        "content": "الاكاديمية المصرية للهندسة والتكنولوجيا المتقدمة وزارة الانتاج الحربى",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5118,
+        "endPos": 5187
+      },
+      {
+        "content": "387.262418",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5188,
+        "endPos": 5198
+      }
+    ],
+    [
+      {
+        "content": "أكاديمية أخبار اليوم شعبة هندسية 6 أكتوبر",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5200,
+        "endPos": 5241
+      },
+      {
+        "content": "385.400000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5242,
+        "endPos": 5252
+      }
+    ],
+    [
+      {
+        "content": "سياسة واقتصاد السويس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5254,
+        "endPos": 5274
+      },
+      {
+        "content": "385.400000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5275,
+        "endPos": 5285
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري قناة السويس بالإسماعيلية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5287,
+        "endPos": 5320
+      },
+      {
+        "content": "385.400000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5321,
+        "endPos": 5331
+      }
+    ],
+    [
+      {
+        "content": "معهد المنصورة العالى للهندسة والتكنولوجيا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5333,
+        "endPos": 5374
+      },
+      {
+        "content": "385.400000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5375,
+        "endPos": 5385
+      }
+    ],
+    [
+      {
+        "content": "إعلام عين شمس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5387,
+        "endPos": 5400
+      },
+      {
+        "content": "385.400000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5401,
+        "endPos": 5411
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري دمنهور",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5413,
+        "endPos": 5428
+      },
+      {
+        "content": "384.029984",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5429,
+        "endPos": 5439
+      }
+    ],
+    [
+      {
+        "content": "العالي للهندسة والتكنولوجيا التجمع الخامس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5441,
+        "endPos": 5482
+      },
+      {
+        "content": "383.350000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5483,
+        "endPos": 5493
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري العريش",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5495,
+        "endPos": 5510
+      },
+      {
+        "content": "383.350000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5511,
+        "endPos": 5521
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري مدينة السادات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5523,
+        "endPos": 5545
+      },
+      {
+        "content": "381.300000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5546,
+        "endPos": 5556
+      }
+    ],
+    [
+      {
+        "content": "الاهرامات العالي للهندسة والتكنولوجيا -6 اكتوبر",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5558,
+        "endPos": 5605
+      },
+      {
+        "content": "380.345343",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5606,
+        "endPos": 5616
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري الوادي الجديد",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5618,
+        "endPos": 5640
+      },
+      {
+        "content": "380.335294",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5641,
+        "endPos": 5651
+      }
+    ],
+    [
+      {
+        "content": "ألسن قناة السويس بالإسماعيلية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5653,
+        "endPos": 5682
+      },
+      {
+        "content": "379.250000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5683,
+        "endPos": 5693
+      }
+    ],
+    [
+      {
+        "content": "معهد هندسة وتكنولوجيا الطيران إمبابة جيزة بمصروفات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5695,
+        "endPos": 5745
+      },
+      {
+        "content": "379.058399",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5746,
+        "endPos": 5756
+      }
+    ],
+    [
+      {
+        "content": "معهد العبور العالي للهندسه والتكنولوجيا بمصروفات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5758,
+        "endPos": 5806
+      },
+      {
+        "content": "379.032941",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5807,
+        "endPos": 5817
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري جنوب الوادي",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5819,
+        "endPos": 5839
+      },
+      {
+        "content": "377.410694",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5840,
+        "endPos": 5850
+      }
+    ],
+    [
+      {
+        "content": "العلوم الصحية التطبيقية بني سويف",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5852,
+        "endPos": 5884
+      },
+      {
+        "content": "377.200000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5885,
+        "endPos": 5895
+      }
+    ],
+    [
+      {
+        "content": "معهد المستقبل العالى للهندسة والتكنولوجيا بالفيوم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5897,
+        "endPos": 5946
+      },
+      {
+        "content": "375.190196",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5947,
+        "endPos": 5957
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري سوهاج",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5959,
+        "endPos": 5973
+      },
+      {
+        "content": "375.150000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5974,
+        "endPos": 5984
+      }
+    ],
+    [
+      {
+        "content": "ألسن عين شمس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5986,
+        "endPos": 5998
+      },
+      {
+        "content": "374.427141",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5999,
+        "endPos": 6009
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالى للهندسه والتكنولوجيا بالمنزلة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6011,
+        "endPos": 6054
+      },
+      {
+        "content": "373.678824",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6055,
+        "endPos": 6065
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري بني سويف",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6067,
+        "endPos": 6084
+      },
+      {
+        "content": "373.384722",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6085,
+        "endPos": 6095
+      }
+    ],
+    [
+      {
+        "content": "كلية تكنولوجيا الصناعة والطاقة 6 أكتوبر التكنولوجية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6097,
+        "endPos": 6148
+      },
+      {
+        "content": "371.050000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6149,
+        "endPos": 6159
+      }
+    ],
+    [
+      {
+        "content": "تمريض المنصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6161,
+        "endPos": 6175
+      },
+      {
+        "content": "371.050000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6176,
+        "endPos": 6186
+      }
+    ],
+    [
+      {
+        "content": "تمريض القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6188,
+        "endPos": 6201
+      },
+      {
+        "content": "371.050000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6202,
+        "endPos": 6212
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالي للهندسة والتكنولوجيا بدمياط الجديدة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6214,
+        "endPos": 6263
+      },
+      {
+        "content": "371.050000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6264,
+        "endPos": 6274
+      }
+    ],
+    [
+      {
+        "content": "طب بيطري مطروح",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6276,
+        "endPos": 6290
+      },
+      {
+        "content": "369.000000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6291,
+        "endPos": 6301
+      }
+    ],
+    [
+      {
+        "content": "المصرية الصينية للتكنولوجيا قناة السويس بالإسماعيلية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6303,
+        "endPos": 6355
+      },
+      {
+        "content": "368.083529",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6356,
+        "endPos": 6366
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالى للهندسة والتكنولوجيا بطنطا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6368,
+        "endPos": 6408
+      },
+      {
+        "content": "367.351291",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6409,
+        "endPos": 6419
+      }
+    ],
+    [
+      {
+        "content": "ألسن الفيوم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6421,
+        "endPos": 6432
+      },
+      {
+        "content": "367.066234",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6433,
+        "endPos": 6443
+      }
+    ],
+    [
+      {
+        "content": "معهد عالي هندسه مدينه الشروق بمصروفات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6445,
+        "endPos": 6482
+      },
+      {
+        "content": "362.850000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6483,
+        "endPos": 6493
+      }
+    ],
+    [
+      {
+        "content": "معهد أكتوبر العالي للهندسه والتكنولوجيا م 6 اكتوبر بمصروفات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6495,
+        "endPos": 6554
+      },
+      {
+        "content": "361.974479",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6555,
+        "endPos": 6565
+      }
+    ],
+    [
+      {
+        "content": "حقوق المنيا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6567,
+        "endPos": 6578
+      },
+      {
+        "content": "360.800000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6579,
+        "endPos": 6589
+      }
+    ],
+    [
+      {
+        "content": "كلية تكنولوجيا العلوم الصحية 6 أكتوبر التكنولوجية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6591,
+        "endPos": 6640
+      },
+      {
+        "content": "360.800000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6641,
+        "endPos": 6651
+      }
+    ],
+    [
+      {
+        "content": "تمريض حلوان",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6653,
+        "endPos": 6664
+      },
+      {
+        "content": "360.800000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6665,
+        "endPos": 6675
+      }
+    ],
+    [
+      {
+        "content": "تمريض دمياط",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6677,
+        "endPos": 6688
+      },
+      {
+        "content": "359.504514",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6689,
+        "endPos": 6699
+      }
+    ],
+    [
+      {
+        "content": "مصر العالي هندسة وتكنولوجيا منصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6701,
+        "endPos": 6735
+      },
+      {
+        "content": "358.845801",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6736,
+        "endPos": 6746
+      }
+    ],
+    [
+      {
+        "content": "أكاديمية أخبار اليوم 6اكتوبر شعبة علوم حاسب",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6748,
+        "endPos": 6791
+      },
+      {
+        "content": "358.219412",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6792,
+        "endPos": 6802
+      }
+    ],
+    [
+      {
+        "content": "معهد طيبة العالي للهندسه بالمعادى بمصروفات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6804,
+        "endPos": 6846
+      },
+      {
+        "content": "356.700000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6847,
+        "endPos": 6857
+      }
+    ],
+    [
+      {
+        "content": "تجارة انتساب موجه الزقازيق",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6859,
+        "endPos": 6885
+      },
+      {
+        "content": "356.700000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6886,
+        "endPos": 6896
+      }
+    ],
+    [
+      {
+        "content": "تمريض بور سعيد",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6898,
+        "endPos": 6912
+      },
+      {
+        "content": "356.700000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6913,
+        "endPos": 6923
+      }
+    ],
+    [
+      {
+        "content": "تكنولوجيا الإدارة ونظم المعلومات بورسعيد",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6925,
+        "endPos": 6965
+      },
+      {
+        "content": "356.495000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 6966,
+        "endPos": 6976
+      }
+    ],
+    [
+      {
+        "content": "عالي إدارة وتكنولوجيا ش علوم حاسب كفر الشيخ",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 6978,
+        "endPos": 7021
+      },
+      {
+        "content": "354.650000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7022,
+        "endPos": 7032
+      }
+    ],
+    [
+      {
+        "content": "كلية تكنولوجيا الصناعة والطاقة 6 أكتوبر التكنولوجية علوم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7034,
+        "endPos": 7090
+      },
+      {
+        "content": "352.600000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7091,
+        "endPos": 7101
+      }
+    ],
+    [
+      {
+        "content": "معهد عالي هندسة وتكنولوجيا العريش",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7103,
+        "endPos": 7136
+      },
+      {
+        "content": "352.429167",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7137,
+        "endPos": 7147
+      }
+    ],
+    [
+      {
+        "content": "التكنولوجيا والتعليم الصناعي حلوان",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7149,
+        "endPos": 7183
+      },
+      {
+        "content": "352.343750",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7184,
+        "endPos": 7194
+      }
+    ],
+    [
+      {
+        "content": "كلية تكنولوجيا الصناعة والطاقة ج القاهرة الجديدة التكنولوجية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7196,
+        "endPos": 7256
+      },
+      {
+        "content": "350.550000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7257,
+        "endPos": 7267
+      }
+    ],
+    [
+      {
+        "content": "معهد عالي كندي تكنولوجيا هندسة ت.خامس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7269,
+        "endPos": 7306
+      },
+      {
+        "content": "350.550000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7307,
+        "endPos": 7317
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالى للهندسة والتكنولوجيا ببرج العرب بالاسكندرية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7319,
+        "endPos": 7376
+      },
+      {
+        "content": "350.379167",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7377,
+        "endPos": 7387
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالى للهندسة والتكنولوجيا بالزقازيق",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7389,
+        "endPos": 7433
+      },
+      {
+        "content": "349.852431",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7434,
+        "endPos": 7444
+      }
+    ],
+    [
+      {
+        "content": "معهد الدلتا العالي للهندسة والتكنولوجيا بالمنصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7446,
+        "endPos": 7495
+      },
+      {
+        "content": "348.638007",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7496,
+        "endPos": 7506
+      }
+    ],
+    [
+      {
+        "content": "كلية تكنولوجيا العلوم الصحية برج العرب التكنولوجية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7508,
+        "endPos": 7558
+      },
+      {
+        "content": "348.500000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7559,
+        "endPos": 7569
+      }
+    ],
+    [
+      {
+        "content": "تجارة انتساب موجه قناة السويس بالإسماعيلية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7571,
+        "endPos": 7613
+      },
+      {
+        "content": "348.500000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7614,
+        "endPos": 7624
+      }
+    ],
+    [
+      {
+        "content": "المعهد الكندي العالي للحاسب الآلي بالتجمع الخامس القاهرة الجديدة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7626,
+        "endPos": 7690
+      },
+      {
+        "content": "348.042770",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7691,
+        "endPos": 7701
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالى للهندسة والتكنولوجيا بالمحلة الكبرى",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7703,
+        "endPos": 7752
+      },
+      {
+        "content": "346.450000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7753,
+        "endPos": 7763
+      }
+    ],
+    [
+      {
+        "content": "تمريض عين شمس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7765,
+        "endPos": 7778
+      },
+      {
+        "content": "344.400000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7779,
+        "endPos": 7789
+      }
+    ],
+    [
+      {
+        "content": "تجارة انتساب موجه الإسكندرية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7791,
+        "endPos": 7819
+      },
+      {
+        "content": "344.400000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7820,
+        "endPos": 7830
+      }
+    ],
+    [
+      {
+        "content": "ألسن بني سويف",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7832,
+        "endPos": 7845
+      },
+      {
+        "content": "344.400000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7846,
+        "endPos": 7856
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالي للهندسة والتكنولوجيا بالبحيرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7858,
+        "endPos": 7901
+      },
+      {
+        "content": "344.400000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7902,
+        "endPos": 7912
+      }
+    ],
+    [
+      {
+        "content": "علوم القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7914,
+        "endPos": 7926
+      },
+      {
+        "content": "339.058611",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7927,
+        "endPos": 7937
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالي للهندسة بمدينة 15 مايو",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7939,
+        "endPos": 7975
+      },
+      {
+        "content": "338.250000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 7976,
+        "endPos": 7986
+      }
+    ],
+    [
+      {
+        "content": "معهد المستقبل العالى للهندسة والتكنولوجيا بالمنصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 7988,
+        "endPos": 8039
+      },
+      {
+        "content": "338.250000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8040,
+        "endPos": 8050
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالى للهندسة والتكنولوجيا بالمنوفية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8052,
+        "endPos": 8096
+      },
+      {
+        "content": "338.250000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8097,
+        "endPos": 8107
+      }
+    ],
+    [
+      {
+        "content": "معهد المدينة العالي للهندسة والتكنولوجيا طريق سقارة الهرم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8109,
+        "endPos": 8166
+      },
+      {
+        "content": "338.032606",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8167,
+        "endPos": 8177
+      }
+    ],
+    [
+      {
+        "content": "تمريض طنطا",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8179,
+        "endPos": 8189
+      },
+      {
+        "content": "336.832083",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8190,
+        "endPos": 8200
+      }
+    ],
+    [
+      {
+        "content": "القاهرة العالي ش هندسية بالتجمع الاول القاهرة الجديدة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8202,
+        "endPos": 8255
+      },
+      {
+        "content": "335.875752",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8256,
+        "endPos": 8266
+      }
+    ],
+    [
+      {
+        "content": "تجارة انتساب موجه القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8268,
+        "endPos": 8293
+      },
+      {
+        "content": "331.955294",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8294,
+        "endPos": 8304
+      }
+    ],
+    [
+      {
+        "content": "تمريض الإسكندرية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8306,
+        "endPos": 8322
+      },
+      {
+        "content": "325.950000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8323,
+        "endPos": 8333
+      }
+    ],
+    [
+      {
+        "content": "تجارة انتساب موجه المنصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8335,
+        "endPos": 8361
+      },
+      {
+        "content": "324.768235",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8362,
+        "endPos": 8372
+      }
+    ],
+    [
+      {
+        "content": "معهد راية العالي للإدارة والتجارة الخارجية شعبة نظم معلومات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8374,
+        "endPos": 8433
+      },
+      {
+        "content": "324.339477",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8434,
+        "endPos": 8444
+      }
+    ],
+    [
+      {
+        "content": "تمريض المنوفية بشبين الكوم",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8446,
+        "endPos": 8472
+      },
+      {
+        "content": "318.793758",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8473,
+        "endPos": 8483
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالي للهندسة والتكنولوجيا بكنج مريوط",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8485,
+        "endPos": 8530
+      },
+      {
+        "content": "316.251356",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8531,
+        "endPos": 8541
+      }
+    ],
+    [
+      {
+        "content": "المعهد الكندي العالي للحاسب الآلي بالتجمع الخامس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8543,
+        "endPos": 8591
+      },
+      {
+        "content": "315.508734",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8592,
+        "endPos": 8602
+      }
+    ],
+    [
+      {
+        "content": "معهد النيل العالي للهندسة والتكنولوجيا بالمنصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8604,
+        "endPos": 8652
+      },
+      {
+        "content": "315.261863",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8653,
+        "endPos": 8663
+      }
+    ],
+    [
+      {
+        "content": "معهد عالي هندسة وتكنولوجيا كفر الشيخ",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8665,
+        "endPos": 8701
+      },
+      {
+        "content": "314.855547",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8702,
+        "endPos": 8712
+      }
+    ],
+    [
+      {
+        "content": "معهد عالي تكنولوجيا 10 رمضان شعبة علوم الحاسب بمصروفات",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8714,
+        "endPos": 8768
+      },
+      {
+        "content": "312.197723",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8769,
+        "endPos": 8779
+      }
+    ],
+    [
+      {
+        "content": "الفراعنة العالي إدارة أعمال",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8781,
+        "endPos": 8808
+      },
+      {
+        "content": "311.449935",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8809,
+        "endPos": 8819
+      }
+    ],
+    [
+      {
+        "content": "معهد الوادي العالي للهندسة والتكنولوجيا قليوبية",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8821,
+        "endPos": 8868
+      },
+      {
+        "content": "309.485351",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8869,
+        "endPos": 8879
+      }
+    ],
+    [
+      {
+        "content": "معهد الإسكندرية العالي للإعلام بسموحة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8881,
+        "endPos": 8918
+      },
+      {
+        "content": "303.405359",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8919,
+        "endPos": 8929
+      }
+    ],
+    [
+      {
+        "content": "المجمع التكنولوجي المتكامل بالسلام",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8931,
+        "endPos": 8965
+      },
+      {
+        "content": "300.710205",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8966,
+        "endPos": 8976
+      }
+    ],
+    [
+      {
+        "content": "تجارة القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8978,
+        "endPos": 8991
+      },
+      {
+        "content": "299.602475",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 8992,
+        "endPos": 9002
+      }
+    ],
+    [
+      {
+        "content": "ع. هندسة وتكنولوجيا العبور ك21 طريق بلبيس الصحراوي",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 9004,
+        "endPos": 9054
+      },
+      {
+        "content": "298.275000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 9055,
+        "endPos": 9065
+      }
+    ],
+    [
+      {
+        "content": "حقوق انتساب موجه القاهرة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 9067,
+        "endPos": 9091
+      },
+      {
+        "content": "295.888693",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 9092,
+        "endPos": 9102
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالي للهندسة ببلبيس",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 9104,
+        "endPos": 9132
+      },
+      {
+        "content": "288.921708",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 9133,
+        "endPos": 9143
+      }
+    ],
+    [
+      {
+        "content": "تجارة انتساب موجه دمياط",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 9145,
+        "endPos": 9168
+      },
+      {
+        "content": "288.025000",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 9169,
+        "endPos": 9179
+      }
+    ],
+    [
+      {
+        "content": "المعهد التكنولوجي العالي ببني سويف",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 9181,
+        "endPos": 9215
+      },
+      {
+        "content": "286.098938",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 9216,
+        "endPos": 9226
+      }
+    ],
+    [
+      {
+        "content": "المعهد العالي للهندسة والتكنولوجيا بالطود الأقصر",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 9228,
+        "endPos": 9276
+      },
+      {
+        "content": "283.336462",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 9277,
+        "endPos": 9287
+      }
+    ],
+    [
+      {
+        "content": "تجارة انتساب موجه كفر الشيخ",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 9289,
+        "endPos": 9316
+      },
+      {
+        "content": "275.672075",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 9317,
+        "endPos": 9327
+      }
+    ],
+    [
+      {
+        "content": "أداب انتساب موجه المنصورة",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 9329,
+        "endPos": 9354
+      },
+      {
+        "content": "267.483185",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 9355,
+        "endPos": 9365
+      }
+    ]
+  ]

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive College Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+        input[type="number"] {
+            width: 200px;
+        }
+        input[type="text"] {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>College Scores</h1>
+
+    <!-- Search Bar -->
+    <input type="text" id="searchInput" placeholder="Search by college name or score" onkeyup="searchTable()">
+
+    <!-- Score Input for filtering -->
+    <h2>Enter a score to filter colleges:</h2>
+    <input type="number" id="scoreInput" placeholder="Enter a score (0-100)" min="0" max="100">
+    <button onclick="performCalculation()">Filter Colleges</button>
+
+    <h2>Colleges:</h2>
+    <table id="collegeTable">
+        <thead>
+            <tr>
+                <th>College Name</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Data rows will be inserted here dynamically -->
+        </tbody>
+    </table>
+
+    <script>
+        let collegesData = [];
+
+        // Fetch the college data from the external JSON file
+        fetch('clean_data.json')
+            .then(response => response.json())
+            .then(data => {
+                collegesData = data;
+                renderTable(collegesData); // Initially render the full table
+            })
+            .catch(error => {
+                console.error('Error loading college data:', error);
+            });
+
+        // Render the table with the given data
+        function renderTable(data) {
+            const tableBody = document.getElementById('tableBody');
+            tableBody.innerHTML = ''; // Clear existing rows
+            data.forEach(college => {
+                const row = document.createElement('tr');
+                row.innerHTML = `<td>${college.college}</td><td>${college.score}</td>`;
+                tableBody.appendChild(row);
+            });
+        }
+
+        // Search function: Filters by college name or score
+        function searchTable() {
+            const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+            const filteredData = collegesData.filter(college => {
+                return college.college.toLowerCase().includes(searchQuery) ||
+                    college.score.toString().includes(searchQuery);
+            });
+            renderTable(filteredData);
+        }
+
+        // Perform calculation and filter based on the user's score input
+        function performCalculation() {
+            const scoreInput = document.getElementById('scoreInput').value;
+            if (scoreInput >= 0 && scoreInput <= 100) {
+                // Perform the calculation
+                const calculatedResult = ((scoreInput / 2) + 50) / 100 * 410;
+                // Filter colleges where score >= calculatedResult
+                const filteredData = collegesData.filter(college => college.score <= calculatedResult);
+                renderTable(filteredData);
+            } else {
+                alert("Please enter a valid score between 0 and 100.");
+            }
+        }
+    </script>
+</body>
+</html>
