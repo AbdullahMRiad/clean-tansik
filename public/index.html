@@ -185,6 +185,10 @@
             color: white;
         }
 
+        #filter-button {
+            color: #ffffff;
+        }
+
         @media (max-width: 768px) {
             body {
                 padding: 1rem;
@@ -234,7 +238,7 @@
         <h2>تصفية حسب نتيجة القدرات:</h2>
         <div class="filter-controls">
             <input type="number" id="scoreInput" placeholder="أدخل نتيجة القدرات (0-100)" min="0" max="100" aria-label="نتيجة اختبار القدرات">
-            <button onclick="performCalculation()">
+            <button onclick="performCalculation()" id="filter-button">
                 <span>تصفية الكليات</span>
             </button>
             <div id="calculatedScore">
