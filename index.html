@@ -304,8 +304,8 @@
 
         // Data Handling
         Promise.all([
-            fetch('b_clean_data.json').then(r => r.json()),
-            fetch('g_clean_data.json').then(r => r.json())
+            fetch('public/b_clean_data.json').then(r => r.json()),
+            fetch('public/g_clean_data.json').then(r => r.json())
         ]).then(([boys, girls]) => {
             boysData = boys;
             girlsData = girls;
