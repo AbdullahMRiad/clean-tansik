@@ -235,15 +235,30 @@
     </div>
 
     <div class="filter-section">
-        <h2>تصفية حسب نتيجة القدرات:</h2>
-        <div class="filter-controls">
-            <input type="number" id="scoreInput" placeholder="أدخل نتيجة القدرات (0-100)" min="0" max="100" aria-label="نتيجة اختبار القدرات">
-            <button onclick="performCalculation()" id="filter-button">
-                <span>تصفية الكليات</span>
-            </button>
-            <div id="calculatedScore">
-                <span>النتيجة المحسوبة:</span>
-                <span id="calculatedValue">-</span>
+        <h2>تصفية حسب النتيجة :</h2>
+            <div class="filter-controls">
+                <!-- New school score input -->
+                <input type="number" 
+                    id="schoolScoreInput" 
+                    placeholder="درجة المدرسة (1-100)"
+                    min="0" 
+                    max="100"
+                    aria-label="School score">
+    
+                <!-- Renamed GAT score input -->
+                <input type="number" 
+                    id="gatScoreInput" 
+                    placeholder="درجة القدرات (1-100)"
+                    min="0" 
+                    max="100"
+                    aria-label="GAT score">
+                <button onclick="performCalculation()" id="filter-button">
+                    <span>تصفية الكليات</span>
+                </button>
+                <div id="calculatedScore">
+                    <span>النتيجة المحسوبة:</span>
+                    <span id="calculatedValue">-</span>
+                </div>
             </div>
         </div>
     </div>
@@ -323,7 +338,7 @@
             document.getElementById('pageTitle').textContent = 
                 `نتائج الكليات لمعادلة شهادة المملكة العربية السعودية (${gender === 'boys' ? 'بنين - علمي' : 'بنات - علمي'}) ٢٠٢٤`;
 
-            ['searchInput', 'scoreInput'].forEach(id => document.getElementById(id).value = '');
+            ['searchInput', 'gatScoreInput', 'schoolScoreInput'].forEach(id => document.getElementById(id).value = '');
             document.getElementById('calculatedValue').textContent = '-';
             renderTable(currentData);
         }
@@ -341,17 +356,29 @@
         }
 
         function performCalculation() {
-            const input = document.getElementById('scoreInput').value;
-            const score = parseFloat(input);
+            // Get both scores
+            const gatScoreInput = document.getElementById('gatScoreInput').value;
+            const schoolScoreInput = document.getElementById('schoolScoreInput').value;
             
-            if (isNaN(score) || score < 0 || score > 100) {
+            // Parse values
+            const gatScore = parseFloat(gatScoreInput);
+            const schoolScore = parseFloat(schoolScoreInput);
+            const calculatedValue = document.getElementById('calculatedValue');
+        
+            // Validate both inputs
+            if (isNaN(gatScore) || isNaN(schoolScore) || 
+                gatScore < 0 || gatScore > 100 ||
+                schoolScore < 0 || schoolScore > 100) {
                 showError(alertMessage);
                 return;
             }
-
-            const result = ((score/2) + 50)/100 * 410;
-            document.getElementById('calculatedValue').textContent = result.toFixed(6);
-            renderTable(currentData.filter(c => c.score <= result));
+        
+            // Updated calculation formula
+            const calculatedResult = ((gatScore/2) + (schoolScore/2)) / 100 * 410;
+            const filteredData = currentData.filter(college => college.score <= calculatedResult);
+            
+            calculatedValue.textContent = calculatedResult.toFixed(6);
+            renderTable(filteredData);
         }
 
         function showError(message) {
