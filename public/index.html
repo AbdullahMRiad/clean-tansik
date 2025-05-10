@@ -7,25 +7,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            /* Boys Theme */
             --primary-color: #2A5CAA;
-            --secondary-color: #f8f9fa;  /* Light gray */
-            --accent-color: #f5f7fa;     /* Very light blue/gray */
-            --hover-accent: #e8edf5;     /* Slightly darker accent */
+            --secondary-color: #f8f9fa;
+            --accent-color: #f5f7fa;
+            --hover-accent: #e8edf5;
             --text-color: #212529;
             --hover-color: #1E3A8A;
             --button-text: #ffffff;
             --table-border: #2A5CAA;
+            --error-color: #dc3545;
         }
 
         [data-gender="girls"] {
-            /* Girls Theme */
             --primary-color: #B71C1C;
-            --secondary-color: #fff5f5;  /* Light red tint */
-            --accent-color: #fce8e8;     /* Very light red */
-            --hover-accent: #f9d7d7;     /* Slightly darker accent */
+            --secondary-color: #fff5f5;
+            --accent-color: #fce8e8;
+            --hover-accent: #f9d7d7;
             --hover-color: #7F0000;
             --table-border: #B71C1C;
+            --error-color: #c53030;
         }
 
         body {
@@ -35,6 +35,22 @@
             color: var(--text-color);
             max-width: 1200px;
             margin: 0 auto;
+        }
+
+        .error-message {
+            color: var(--error-color);
+            padding: 0.5rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+            display: none;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        button:focus,
+        input:focus {
+            outline: 2px solid var(--hover-color);
+            outline-offset: 2px;
         }
 
         h1 {
@@ -49,7 +65,6 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        /* Scroll to Top Button */
         .scroll-top {
             position: fixed;
             bottom: 20px;
@@ -94,12 +109,6 @@
             border: 2px solid var(--primary-color);
         }
 
-        input:focus {
-            outline: none;
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 3px rgba(42, 92, 170, 0.2);
-        }
-
         button {
             background-color: var(--primary-color);
             color: var(--button-text);
@@ -109,18 +118,6 @@
             margin-inline-start: 10px;
             text-align: center;
             max-width: 443px;
-        }
-
-        .filter-button-label {
-            color: var(--button-text);
-            font-family: Cairo, sans-serif;
-        }
-
-        button:hover {
-            background-color: var(--hover-color);
-            transform: translateY(-1px);
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            color: var(--button-text)
         }
 
         table {
@@ -151,8 +148,7 @@
 
         tr:hover {
             background-color: var(--hover-accent);
-            transform: scale(1.0000001);
-            transition: all 0.2s ease;
+            transition: background-color 0.2s ease;
         }
 
         .filter-section {
@@ -162,13 +158,6 @@
             margin: 1.5rem 0;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
             border: 1px solid var(--primary-color);
-        }
-
-        .filter-section h2 {
-            margin-top: 0;
-            color: var(--primary-color);
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
         }
 
         .tabs {
@@ -196,15 +185,6 @@
             color: white;
         }
 
-        #calculatedScore {
-            font-weight: 600;
-            background-color: #0000;
-            color: var(--primary-color);
-            padding: 0.5rem 1rem;
-            border-radius: 6px;
-            margin-inline-start: 1rem;
-        }
-
         @media (max-width: 768px) {
             body {
                 padding: 1rem;
@@ -220,10 +200,6 @@
             }
             .filter-controls {
                 flex-direction: column;
-                width: 90%;
-            }
-            #searchInput {
-                width: 90%;
             }
             #calculatedScore {
                 width: 100%;
@@ -239,26 +215,28 @@
     </style>
 </head>
 <body data-gender="boys">
-    <!-- Scroll to Top Button -->
-    <button class="scroll-top" onclick="scrollToTop()">↑</button>
-
+    <button class="scroll-top" onclick="scrollToTop()" aria-label="العودة للأعلى">↑</button>
     <h1 id="pageTitle">نتائج الكليات لمعادلة شهادة المملكة العربية السعودية (بنين - علمي) ٢٠٢٤</h1>
     
-    <div class="tabs">
-        <button class="tab-button active" onclick="switchTab('boys')">بنين</button>
-        <button class="tab-button" onclick="switchTab('girls')">بنات</button>
+    <div class="tabs" role="tablist">
+        <button class="tab-button active" role="tab" aria-selected="true" onclick="switchTab('boys')">بنين</button>
+        <button class="tab-button" role="tab" aria-selected="false" onclick="switchTab('girls')">بنات</button>
     </div>
+
+    <div class="error-message" id="errorMessage"></div>
 
     <div class="filter-section">
         <h2>تصفية حسب اسم الجامعة أو نتيجة المعادلة:</h2>
-        <input type="text" id="searchInput" placeholder="ابحث باسم الكلية أو نتيجة المعادلة" onkeyup="searchTable()">
+        <input type="text" id="searchInput" placeholder="ابحث باسم الكلية أو نتيجة المعادلة" aria-label="بحث عن الكليات">
     </div>
 
     <div class="filter-section">
         <h2>تصفية حسب نتيجة القدرات:</h2>
         <div class="filter-controls">
-            <input type="number" id="scoreInput" placeholder="أدخل نتيجة القدرات (0-100)" min="0" max="100">
-            <button onclick="performCalculation()"><span class="filter-button-label">تصفية الكليات</span></button>
+            <input type="number" id="scoreInput" placeholder="أدخل نتيجة القدرات (0-100)" min="0" max="100" aria-label="نتيجة اختبار القدرات">
+            <button onclick="performCalculation()">
+                <span>تصفية الكليات</span>
+            </button>
             <div id="calculatedScore">
                 <span>النتيجة المحسوبة:</span>
                 <span id="calculatedValue">-</span>
@@ -266,7 +244,7 @@
         </div>
     </div>
 
-    <table id="collegeTable">
+    <table id="collegeTable" aria-live="polite">
         <thead>
             <tr>
                 <th>اسم الكلية</th>
@@ -274,7 +252,7 @@
             </tr>
         </thead>
         <tbody id="tableBody">
-            <!-- Data rows will be inserted here dynamically -->
+            <tr><td colspan="2">جاري تحميل البيانات...</td></tr>
         </tbody>
     </table>
 
@@ -283,86 +261,106 @@
         let boysData = [];
         let girlsData = [];
         let currentData = [];
+        let searchTimeout;
 
-        // Scroll to Top Functionality
         function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        window.addEventListener('scroll', () => {
+            document.querySelector('.scroll-top').classList.toggle('show', window.scrollY > 300);
+        });
+
+        function loadData() {
+            Promise.all([
+                fetch('b_clean_data.json').then(r => {
+                    if (!r.ok) throw new Error('فشل تحميل بيانات البنين');
+                    return r.json();
+                }),
+                fetch('g_clean_data.json').then(r => {
+                    if (!r.ok) throw new Error('فشل تحميل بيانات البنات');
+                    return r.json();
+                })
+            ]).then(([boys, girls]) => {
+                if (!boys.length || !girls.length) throw new Error('البيانات غير متوفرة');
+                boysData = boys;
+                girlsData = girls;
+                const preferredGender = localStorage.getItem('preferredGender') || 'boys';
+                switchTab(preferredGender);
+            }).catch(error => {
+                showError(error.message);
+                document.getElementById('tableBody').innerHTML = `<tr><td colspan="2">${error.message}</td></tr>`;
             });
         }
 
-        // Scroll Button Visibility
-        window.addEventListener('scroll', () => {
-            const scrollButton = document.querySelector('.scroll-top');
-            if (window.scrollY > 300) {
-                scrollButton.classList.add('show');
-            } else {
-                scrollButton.classList.remove('show');
-            }
-        });
-
-        // Data Handling
-        Promise.all([
-            fetch('b_clean_data.json').then(r => r.json()),
-            fetch('g_clean_data.json').then(r => r.json())
-        ]).then(([boys, girls]) => {
-            boysData = boys;
-            girlsData = girls;
-            currentData = boysData;
-            renderTable(currentData);
-        }).catch(error => console.error('Error loading data:', error));
-
         function renderTable(data) {
-            const tableBody = document.getElementById('tableBody');
-            tableBody.innerHTML = '';
-            data.forEach(college => {
-                const row = document.createElement('tr');
-                row.innerHTML = `<td>${college.college}</td><td>${college.score.toFixed(6)}</td>`;
-                tableBody.appendChild(row);
-            });
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = data.length ? 
+                data.map(college => `
+                    <tr>
+                        <td>${college.college}</td>
+                        <td>${college.score.toFixed(6)}</td>
+                    </tr>
+                `).join('') : 
+                `<tr><td colspan="2">لا توجد نتائج متطابقة</td></tr>`;
         }
 
         function switchTab(gender) {
             document.body.setAttribute('data-gender', gender);
-            document.querySelectorAll('.tab-button').forEach(btn => {
-                btn.classList.remove('active');
-                btn.style.borderColor = `var(--primary-color)`;
-            });
-            event.target.classList.add('active');
-
+            localStorage.setItem('preferredGender', gender);
             currentData = gender === 'boys' ? boysData : girlsData;
+            
+            document.querySelectorAll('.tab-button').forEach(btn => {
+                const isActive = btn.textContent === (gender === 'boys' ? 'بنين' : 'بنات');
+                btn.classList.toggle('active', isActive);
+                btn.setAttribute('aria-selected', isActive);
+            });
+
             document.getElementById('pageTitle').textContent = 
                 `نتائج الكليات لمعادلة شهادة المملكة العربية السعودية (${gender === 'boys' ? 'بنين - علمي' : 'بنات - علمي'}) ٢٠٢٤`;
 
-            document.getElementById('searchInput').value = '';
-            document.getElementById('scoreInput').value = '';
+            ['searchInput', 'scoreInput'].forEach(id => document.getElementById(id).value = '');
             document.getElementById('calculatedValue').textContent = '-';
             renderTable(currentData);
         }
 
         function searchTable() {
-            const searchQuery = document.getElementById('searchInput').value.toLowerCase();
-            const filteredData = currentData.filter(college => {
-                return college.college.toLowerCase().includes(searchQuery) ||
-                    college.score.toString().includes(searchQuery);
-            });
-            renderTable(filteredData);
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(() => {
+                const query = document.getElementById('searchInput').value.toLowerCase();
+                const filtered = currentData.filter(c => 
+                    c.college.toLowerCase().includes(query) || 
+                    c.score.toString().includes(query)
+                );
+                renderTable(filtered);
+            }, 300);
         }
 
         function performCalculation() {
-            const scoreInput = document.getElementById('scoreInput').value;
-            const calculatedValue = document.getElementById('calculatedValue');
-
-            if (scoreInput >= 0 && scoreInput <= 100) {
-                const calculatedResult = ((scoreInput / 2) + 50) / 100 * 410;
-                const filteredData = currentData.filter(college => college.score <= calculatedResult);
-                calculatedValue.textContent = calculatedResult.toFixed(6);
-                renderTable(filteredData);
-            } else {
-                alert(alertMessage);
+            const input = document.getElementById('scoreInput').value;
+            const score = parseFloat(input);
+            
+            if (isNaN(score) || score < 0 || score > 100) {
+                showError(alertMessage);
+                return;
             }
+
+            const result = ((score/2) + 50)/100 * 410;
+            document.getElementById('calculatedValue').textContent = result.toFixed(6);
+            renderTable(currentData.filter(c => c.score <= result));
         }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('errorMessage');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+            setTimeout(() => errorDiv.style.display = 'none', 5000);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadData();
+            document.getElementById('searchInput').addEventListener('input', searchTable);
+        });
     </script>
 </body>
 </html>
