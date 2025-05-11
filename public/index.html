@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>جدول الكليات التفاعلي</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="preload" href="css/main.css" as="style">
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body data-gender="boys">
@@ -27,32 +26,31 @@
 
     <div class="filter-section">
         <h2>تصفية حسب النتيجة :</h2>
-            <div class="filter-controls">
-                <!-- New school score input -->
-                <input type="number" 
-                    id="schoolScoreInput" 
-                    placeholder="درجة المدرسة (1-100)"
-                    min="0" 
-                    max="100"
-                    aria-label="School score">
-    
-                <!-- Renamed GAT score input -->
-                <input type="number" 
-                    id="gatScoreInput" 
-                    placeholder="درجة القدرات (1-100)"
-                    min="0" 
-                    max="100"
-                    aria-label="GAT score">
+        <div class="filter-controls">
+            <!-- New school score input -->
+            <input type="number" 
+                id="schoolScoreInput" 
+                placeholder="درجة المدرسة (1-100)"
+                min="0" 
+                max="100"
+                aria-label="School score">
 
-                <div class="error-message" id="scoreError"></div>
+            <!-- Renamed GAT score input -->
+            <input type="number" 
+                id="gatScoreInput" 
+                placeholder="درجة القدرات (1-100)"
+                min="0" 
+                max="100"
+                aria-label="GAT score">
 
-                <button id="filter-button">
-                    <span>تصفية الكليات</span>
-                </button>
-                <div id="calculatedScore">
-                    <span>النتيجة المحسوبة:</span>
-                    <span id="calculatedValue">-</span>
-                </div>
+            <div class="error-message" id="scoreError"></div>
+
+            <button id="filter-button">
+                <span>تصفية الكليات</span>
+            </button>
+            <div id="calculatedScore">
+                <span>النتيجة المحسوبة:</span>
+                <span id="calculatedValue">-</span>
             </div>
         </div>
     </div>

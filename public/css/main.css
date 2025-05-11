@@ -20,6 +20,18 @@
     --error-color: #c53030;
 }
 
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Cairo', sans-serif;
     padding: 2rem;
@@ -84,7 +96,8 @@ h1 {
     opacity: 1;
 }
 
-input, button {
+input,
+button {
     padding: 0.8rem 1.2rem;
     margin: 0.5rem 0;
     border-radius: 8px;
@@ -96,8 +109,9 @@ input, button {
     font-family: 'Cairo', sans-serif;
 }
 
-input[type="text"], input[type="number"] {
-    width: 100%;
+input[type="text"],
+input[type="number"] {
+    width: auto;
     max-width: 400px;
     background-color: white;
     border: 2px solid var(--primary-color);
@@ -125,7 +139,8 @@ table {
     border: 2px solid var(--table-border);
 }
 
-th, td {
+th,
+td {
     padding: 1rem;
     text-align: right;
 }
@@ -183,6 +198,22 @@ tr:hover {
     color: #ffffff;
 }
 
+.filter-controls {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.75rem;
+}
+
+.filter-controls input[type="text"],
+.filter-controls input[type="number"] {
+    width: auto;
+    /* size to content + padding */
+    max-width: 400px;
+    /* but never exceed 400px */
+    min-width: 0;
+    /* allows the grid to shrink them */
+}
+
 @media (max-width: 768px) {
     body {
         padding: 0.5rem !important;
@@ -208,12 +239,8 @@ tr:hover {
 
     input[type="text"],
     input[type="number"] {
-        width: 100%;
+        width: 100% !important;
         max-width: 100% !important;
-        margin: 0;
-        padding: 0.75rem;
-        box-sizing: border-box;
-        font-size: 14px;
     }
 
     #filter-button {
@@ -240,5 +267,11 @@ tr:hover {
         width: 100vw;
         margin-left: -0.5rem;
         border-radius: 0;
+    }
+
+    .filter-controls input[type="text"],
+    .filter-controls input[type="number"] {
+        width: 100% !important;
+        max-width: 100% !important;
     }
 }
