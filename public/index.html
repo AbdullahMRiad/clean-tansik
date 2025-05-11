@@ -10,12 +10,12 @@
 </head>
 <body data-gender="boys">
     <script src="js/main.js" type="module"></script>
-    <button class="scroll-top" onclick="scrollToTop()" aria-label="العودة للأعلى">↑</button>
+    <button class="scroll-top" aria-label="العودة للأعلى">↑</button>
     <h1 id="pageTitle">نتائج الكليات لمعادلة شهادة المملكة العربية السعودية (بنين - علمي) ٢٠٢٤</h1>
     
     <div class="tabs" role="tablist">
-        <button class="tab-button active" role="tab" aria-selected="true" onclick="switchTab('boys')">بنين</button>
-        <button class="tab-button" role="tab" aria-selected="false" onclick="switchTab('girls')">بنات</button>
+        <button class="tab-button active" role="tab" aria-selected="true">بنين</button>
+        <button class="tab-button" role="tab" aria-selected="false">بنات</button>
     </div>
 
     <div class="error-message" id="errorMessage"></div>
@@ -46,7 +46,7 @@
 
                 <div class="error-message" id="scoreError"></div>
 
-                <button onclick="performCalculation()" id="filter-button">
+                <button id="filter-button">
                     <span>تصفية الكليات</span>
                 </button>
                 <div id="calculatedScore">

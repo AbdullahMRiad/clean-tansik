@@ -12,6 +12,21 @@ window.addEventListener('scroll', () => {
     document.querySelector('.scroll-top').classList.toggle('show', window.scrollY > 300);
 });
 
+document.addEventListener('DOMContentLoaded', () => {
+    loadData();
+    document.getElementById('searchInput').addEventListener('input', searchTable);
+    
+    // Add these event listeners
+    document.querySelector('.scroll-top').addEventListener('click', scrollToTop);
+    
+    document.querySelectorAll('.tab-button').forEach(btn => {
+        btn.addEventListener('click', () => switchTab(btn.textContent === 'بنين' ? 'boys' : 'girls'));
+    });
+    
+    // Add filter button listener
+    document.getElementById('filter-button').addEventListener('click', performCalculation);
+});
+
 function loadData() {
     Promise.all([
         fetch('b_clean_data.json').then(r => {
