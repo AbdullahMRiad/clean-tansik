@@ -14,11 +14,11 @@ window.addEventListener('scroll', () => {
 
 function loadData() {
     Promise.all([
-        fetch('../../public/b_clean_data.json').then(r => {
+        fetch('b_clean_data.json').then(r => {
             if (!r.ok) throw new Error('فشل تحميل بيانات البنين');
             return r.json();
         }),
-        fetch('../../public/g_clean_data.json').then(r => {
+        fetch('g_clean_data.json').then(r => {
             if (!r.ok) throw new Error('فشل تحميل بيانات البنات');
             return r.json();
         })
