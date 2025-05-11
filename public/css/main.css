@@ -185,32 +185,60 @@ tr:hover {
 
 @media (max-width: 768px) {
     body {
-        padding: 1rem;
+        padding: 0.5rem !important;
+        box-sizing: border-box;
+        overflow-x: hidden;
     }
-    h1 {
-        font-size: 1.6rem;
-        padding: 0.8rem;
-    }
-    button {
+
+    .filter-section {
+        padding: 0.5rem;
+        margin: 0.5rem 0;
         width: 100%;
-        margin-inline-start: 0;
-        margin-top: 10px;
+        box-sizing: border-box;
     }
+
     .filter-controls {
-        flex-direction: column;
+        display: grid !important;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
+
+    input[type="text"],
+    input[type="number"] {
+        width: 100%;
+        max-width: 100% !important;
+        margin: 0;
+        padding: 0.75rem;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    #filter-button {
+        width: 100%;
+        margin: 0;
+        padding: 0.75rem;
+    }
+
     #calculatedScore {
         width: 100%;
-        text-align: center;
-        margin-inline-start: 0;
+        padding: 0.75rem;
+        margin: 0.5rem 0 0 0;
+        box-sizing: border-box;
     }
-    .scroll-top {
-        width: 40px;
-        height: 40px;
-        font-size: 1.2rem;
+
+    h1 {
+        font-size: 1.4rem;
+        padding: 0.8rem;
+        margin: 0 -0.5rem 1rem -0.5rem;
+        width: calc(100% + 1rem);
     }
-    .error-message {
-        padding: 0.5rem;
-        font-size: 0.9rem;
+
+    table {
+        width: 100vw;
+        margin-left: -0.5rem;
+        border-radius: 0;
     }
 }
